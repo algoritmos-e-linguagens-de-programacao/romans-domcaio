@@ -1,8 +1,21 @@
-def int_to_roman(num):
-    # Implemente sua função aqui
-    pass
-
-
-def roman_to_int(s):
-    # Implemente sua função aqui
-    pass
+Inputado = int(input("Digite o número: "))
+def printRomano(number):
+    num = [1, 4, 5, 9, 10, 40, 50, 90,
+        100, 400, 500, 900, 1000]
+    sym = ["I", "IV", "V", "IX", "X", "XL",
+        "L", "XC", "C", "CD", "D", "CM", "M"]
+    i = 12
+      
+    while number:
+        div = number // num[i]
+        number %= num[i]
+  
+        while div:
+            print(sym[i], end = "")
+            div -= 1
+        i -= 1
+  
+if _name_ == "_main_":
+    number = Inputado
+    print("O número convertido pra romano é: ", end = "")
+    printRomano(number)
