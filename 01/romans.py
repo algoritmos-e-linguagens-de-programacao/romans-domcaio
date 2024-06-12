@@ -1,4 +1,4 @@
-Inputado = int(input("Digite o número: "))
+Inputo = 1913
 def printRomano(number):
     num = [1, 4, 5, 9, 10, 40, 50, 90,
         100, 400, 500, 900, 1000]
@@ -16,6 +16,6 @@ def printRomano(number):
         i -= 1
   
 if _name_ == "_main_":
-    number = Inputado
+    number = Inputo
     print("O número convertido pra romano é: ", end = "")
     printRomano(number)
