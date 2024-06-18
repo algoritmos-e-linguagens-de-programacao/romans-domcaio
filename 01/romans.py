@@ -15,7 +15,7 @@ def printRomano(number):
             div -= 1
         i -= 1
   
-if _name_ == "_main_":
+if __name__ == "__main__":
     number = Inputo
     print("O número convertido pra romano é: ", end = "")
     printRomano(number)
