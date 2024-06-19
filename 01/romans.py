@@ -1,4 +1,4 @@
-def roman_to_int(number):
+def int_to_roman(number):
     num = [1, 4, 5, 9, 10, 40, 50, 90,
         100, 400, 500, 900, 1000]
     sym = ["I", "IV", "V", "IX", "X", "XL",
@@ -13,7 +13,9 @@ def roman_to_int(number):
             print(sym[i], end = "")
             div -= 1
         i -= 1
-  
+
+def roman_to_int
+
 if __name__ == "__main__":
     number = 1913
     print("O número convertido pra romano é: ", end = "")
