@@ -17,4 +17,4 @@ def roman_to_int(number):
 if __name__ == "__main__":
     number = 1913
     print("O número convertido pra romano é: ", end = "")
-    printRomano(number)
+    roman_to_int(number)
